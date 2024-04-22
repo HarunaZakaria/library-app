@@ -1,0 +1,1 @@
+This is a simple website for a financial firm that we want to present to and if approved we will be building it into a fulll responsive and functional one!
