@@ -3,13 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Library</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Library App</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Hello from Librarys</h1>
-      <script src="index.js"></script>
-    </div>
+    <h1>📚 My Library</h1>
+
+    <!-- Button to add a new book -->
+    <button id="newBookBtn">+ New Book</button>
+
+    <!-- Form to add a new book -->
+    <form id="bookForm" style="display: none">
+      <input type="text" id="title" placeholder="Book Title" required />
+      <input type="text" id="author" placeholder="Author" required />
+      <input type="number" id="pages" placeholder="Pages" required />
+      <label> <input type="checkbox" id="read" /> Read </label>
+      <button type="submit">Add Book</button>
+    </form>
+
+    <!-- Where books will be displayed -->
+    <div id="library"></div>
+
+    <script src="index.js"></script>
   </body>
 </html>
